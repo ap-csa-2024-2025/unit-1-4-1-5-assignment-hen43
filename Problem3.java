@@ -5,7 +5,7 @@ public class Problem3{
         int digitOne = wankyGronkler / 1000;
         int digitTwo = wankyGronkler / 100 % 10;
         int digitThree = wankyGronkler % 100 / 10;
-        int digitFour = wankyGronkler % 100 % 10;
+        int digitFour = wankyGronkler % 10;
 
         System.out.println(digitFour);
         System.out.println(digitThree);
